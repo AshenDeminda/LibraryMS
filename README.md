@@ -1,5 +1,4 @@
 # 📚 Library Management System 🚀  
-
 ## 🎯 Project Objective  
 The **Library Management System** is designed to help librarians efficiently manage books and members.  
 It provides features for **adding, removing, searching, and sorting books and members** while ensuring smooth book **issuance and return tracking**. 📖  
@@ -19,9 +18,10 @@ It provides features for **adding, removing, searching, and sorting books and me
 - **⚡ Quick Sort** – Sorts books by **Title** and **Author**.  
 - **⚡ Merge Sort** – Sorts books by **Year**.  
 
-### 📌 **Searching Algorithms**  
-- **🔍 Linear Search** – For finding books by **Title** or **Author** (Efficient for unsorted text data).  
-- **🔍 Binary Search** – For finding books by **ISBN** (Requires sorted data but is much faster for large datasets).  
+### 📌 Searching Algorithms  
+- **🔍 Partial Matching (Substring Search)** → Allows searching by a **part of the book name** or **author name**.  
+- **🔍 Linear Search** – Used for **Title** and **Author** searches (Efficient for unsorted text data).  
+- **🔍 Binary Search** – Used for **ISBN lookup** (Requires sorted data and is much faster for large datasets).   
 
 ## 🚀 Performance Comparison  
 📊 **Sorting Algorithm Efficiency**  
